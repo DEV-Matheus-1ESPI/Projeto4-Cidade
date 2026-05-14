@@ -14,7 +14,7 @@ async function configurarCamera(){
         //chama a API do navegador para solicitar acesso
         const midia=await navigator.mediaDevices.getUserMedia({
             //habilita a câmera traseira
-            video:{ facingMode: "enviroment"},
+            video:{ facingMode: "environment"},
             //o audio não será capturado
             audio:false
         });
